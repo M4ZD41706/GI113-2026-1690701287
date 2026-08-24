@@ -108,6 +108,8 @@ namespace Lab02
             Console.WriteLine($"Holy Damage: {char4HolyDamage}");
             Console.WriteLine($"Guild Rank: {char4Rank}");
             Console.WriteLine($"Is Alive: {char4IsAlive}");
+            Console.WriteLine();
+
         }
     }
 }
