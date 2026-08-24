@@ -10,7 +10,7 @@ Repository ส่วนตัวของวิชา **GI113 Computer Programmi
 ชื่อ-นามสกุล: Kumphaphan Boonsuk
 Section: 129B
 รหัสนักศึกษา: 1690701287
-เลขที่: 
+เลขที่: 0
 ```
 
 ## กติกาการตั้งชื่อ (Naming Convention)
