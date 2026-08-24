@@ -58,22 +58,22 @@ namespace Lab02
 
             // Character 2: Horpy (Elementalist Mage)
             string char2Name = "Horpy";
-            int char2Mana = 850;
-            double char2SpellPower = 345.85;      // double
+            int char2Mana = 100;
+            double char2SpellPower = 35.85;      // double
             char char2Element = 'F';              // char ('F' = Fire)
             bool char2IsCasting = false;
 
             // Character 3: Mael (Shadow Assassin)
             string char3Name = "Mael";
-            int char3Level = 60;
-            float char3MoveSpeed = 4.85f;         // float
-            double char3CritMultiplier = 2.75;    // double
+            int char3Level = 5;
+            float char3MoveSpeed = 2.85f;         // float
+            double char3CritMultiplier = 0.75;    // double
             bool char3IsStealthed = true;
 
             // Character 4: Athena (Holy Paladin)
             string char4Name = "Athena";
-            int char4Defense = 420;
-            double char4HolyDamage = 189.40;      // double
+            int char4Defense = 20;
+            double char4HolyDamage = 18.40;      // double
             char char4Rank = 'A';                 // char
             bool char4IsAlive = true;
 
