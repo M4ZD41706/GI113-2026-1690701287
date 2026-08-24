@@ -1,10 +1,10 @@
 ﻿/*
- * Student ID : 1690701287
- * Name       : Kumphaphan Boonsuk
- * Section    : 129B
- * No.        : 0
- * Course     : GI113 Computer Programming (GI)
- */
+* Student ID : 1690701287
+* Name       : Kumphaphan Boonsuk
+* Section    : 129B
+* No.        : 0
+* Course     : GI113 Computer Programming (GI)
+*/
 namespace Lab02
 {
     internal class Program
