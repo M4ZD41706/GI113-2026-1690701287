@@ -1,7 +1,7 @@
 ﻿/*
  * Student ID : 1690701287
- * Name       : Khumphaphan
- * Section    : Boonsuk
+ * Name       : Khumphaphan Boonsuk
+ * Section    : 129B
  * No.        : NO.0
  * Course     : GI113 Computer Programming (GI)
  */
