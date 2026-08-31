@@ -82,28 +82,32 @@ namespace Lab02
             // 2. DISPLAY STATS (STRING INTERPOLATION)
             // ==========================================
 
-            Console.WriteLine($"=== CHARACTER 1: {char1Name} ===");
+            Console.WriteLine($"=== CHARACTER 1: ===");
+            Console.WriteLine($"NAME: {char1Name}");
             Console.WriteLine($"HP: {char1Hp}");
             Console.WriteLine($"Attack Speed: {char1AttackSpeed} atk/s");
             Console.WriteLine($"Tier Rank: {char1Tier}");
             Console.WriteLine($"Shield Active: {char1IsShieldActive}");
             Console.WriteLine();
 
-            Console.WriteLine($"=== CHARACTER 2: {char2Name} ===");
+            Console.WriteLine($"=== CHARACTER 2: ===");
+            Console.WriteLine($"NAME: {char2Name}");
             Console.WriteLine($"Max Mana: {char2Mana}");
             Console.WriteLine($"Spell Power: {char2SpellPower} pts");
             Console.WriteLine($"Element Type: '{char2Element}'");
             Console.WriteLine($"Currently Casting: {char2IsCasting}");
             Console.WriteLine();
 
-            Console.WriteLine($"=== CHARACTER 3: {char3Name} ===");
+            Console.WriteLine($"=== CHARACTER 3: ===");
+            Console.WriteLine($"NAME: {char3Name}");
             Console.WriteLine($"Current Level: {char3Level}");
             Console.WriteLine($"Movement Speed: {char3MoveSpeed} m/s");
             Console.WriteLine($"Crit Multiplier: {char3CritMultiplier}x");
             Console.WriteLine($"Stealth Status: {char3IsStealthed}");
             Console.WriteLine();
 
-            Console.WriteLine($"=== CHARACTER 4: {char4Name} ===");
+            Console.WriteLine($"=== CHARACTER 4: ===");
+            Console.WriteLine($"NAME: {char4Name}");
             Console.WriteLine($"Base Defense: {char4Defense}");
             Console.WriteLine($"Holy Damage: {char4HolyDamage}");
             Console.WriteLine($"Guild Rank: {char4Rank}");
