@@ -35,7 +35,6 @@ namespace Lab03
             Console.WriteLine($"Attack Power: {attackPower}");
             Console.WriteLine($"Crit Multiplier: {critMultiplier}");
             Console.WriteLine($"Is Boss: {isBoss}");
-            
             Console.WriteLine();
             /////////////////////////
             // DOUBLE CONVERSIONS //
@@ -43,16 +42,13 @@ namespace Lab03
             Console.WriteLine("----- Implicit Conversion: HP as double -----");
             double currentHpDouble = currentHp;
             Console.WriteLine($"HP (double): {currentHpDouble}");
-
             Console.WriteLine();
             //////////////////////////////////////////////////////////
             // Double Division: HP Percent (no integer truncation) //
             /////////////////////////////////////////////////////////
-
             Console.WriteLine("----- Exact HP Percent (no integer truncation) -----");
             double hpPercentExact = currentHpDouble * 100 / maxHp;
             Console.WriteLine($"HP Percent (exact): {hpPercentExact}%");
-
             Console.WriteLine();
             ////////////////////////////////////////
             // Attack Power as int (explicit cast)//
@@ -60,7 +56,6 @@ namespace Lab03
             Console.WriteLine("----- Explicit Cast: Attack Power -> Display Int -----");
             int attackDisplay = (int)attackPower;
             Console.WriteLine($"Attack Power (int cast): {attackDisplay}");
-
             Console.WriteLine();
             //////////////////////////////////////////
             // cast vs convert for crit multiplier //
