@@ -36,30 +36,30 @@ namespace Lab03
             Console.WriteLine($"Crit Multiplier: {critMultiplier}");
             Console.WriteLine($"Is Boss: {isBoss}");
             Console.WriteLine();
-            /////////////////////////
-            // DOUBLE CONVERSIONS //
-            ///////////////////////
+            /////////////////////////////////////////////////
+            // DOUBLE CONVERSIONS :การแปลงชนิดข้อมูลเป็น double //
+            ////////////////////////////////////////////////
             Console.WriteLine("----- Implicit Conversion: HP as double -----");
             double currentHpDouble = currentHp;
             Console.WriteLine($"HP (double): {currentHpDouble}");
             Console.WriteLine();
-            //////////////////////////////////////////////////////////
-            // Double Division: HP Percent (no integer truncation) //
-            /////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////
+            // Double Division: HP Percent (no integer truncation) : การหารแบบ Double: เปอร์เซ็นต์ HP (ไม่มีการตัดเศษจำนวนเต็ม)//
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////
             Console.WriteLine("----- Exact HP Percent (no integer truncation) -----");
             double hpPercentExact = currentHpDouble * 100 / maxHp;
             Console.WriteLine($"HP Percent (exact): {hpPercentExact}%");
             Console.WriteLine();
-            ////////////////////////////////////////
-            // Attack Power as int (explicit cast)//
-            ////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////
+            // Attack Power as int (explicit cast) : ค่า Attack Power ให้อยู่ในรูปจำนวนเต็ม (การแปลงชนิดข้อมูลแบบ Explicit Cast)//
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////
             Console.WriteLine("----- Explicit Cast: Attack Power -> Display Int -----");
             int attackDisplay = (int)attackPower;
             Console.WriteLine($"Attack Power (int cast): {attackDisplay}");
             Console.WriteLine();
-            //////////////////////////////////////////
-            // cast vs convert for crit multiplier //
-            ////////////////////////////////////////
+            ///////////////////////////////////////////////////////////////////////////////////////////////
+            // cast vs convert for crit multiplier : เปรียบเทียบการ Cast กับการ Convert สำหรับค่า Crit Multiplier//
+            //////////////////////////////////////////////////////////////////////////////////////////////
             Console.WriteLine("----- Cast vs Convert: Crit Multiplier -----");
             int critCast = (int)critMultiplier;
             int critConvert = Convert.ToInt32(critMultiplier);
