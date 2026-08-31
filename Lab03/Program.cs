@@ -12,7 +12,9 @@ namespace Lab03
         static void Main(string[] args)
         {
             const int MaxLevel = 10;
-
+            //////////////////////
+            //ประกาศตัวแปรของบอสที่นี่//
+            /////////////////////
             var bossName = "Kirin";   // ต้องประกาศด้วย var ห้ามเขียน string ตรงๆ
             var rank = 'S';            // ต้องประกาศด้วย var ห้ามเขียน char ตรงๆ
             int level = 7;
