@@ -11,16 +11,16 @@
         // ---- var: 2+ vars, including string/char, คอมไพเลอร์เดาชนิดข้อมูลให้เอง ----
         var unitName = "Areus, Radiant Vanguard";   // inferred as string
         var gradeSymbol = 'G';                       // inferred as char (Grade marker)
- 
-        // ---- remaining declared data types ----
+
+        // ---- ประกาศ "ชนิดข้อมูลที่เหลือ" ----
         int shieldValue = 10000;
         float criticalMultiplier = 1.5f;
         bool isRideDeck = true;
- 
-        // ---- implicit conversion: int -> double, no cast token used ----
+
+        // ---- การแปลงชนิดข้อมูล: int -> double, no cast token used ----
         double shieldAsDouble = shieldValue;
- 
-        // ---- cast vs Convert.ToInt32 on the SAME decimal value, ending .5+ so results differ ----
+
+        // ---- cast vs Convert.ToInt32 — ต้องใช้ตัวแปรตัวเดียวกันทดสอบทั้งสองวิธี ไม่ใช่สร้างตัวแปรคนละตัวแยกกัน ----
         double driveCheckRaw = 275.8;
         int driveCheckCast = (int)driveCheckRaw;                 // truncates  -> 275
         int driveCheckConverted = Convert.ToInt32(driveCheckRaw); // rounds     -> 276
