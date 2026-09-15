@@ -1,4 +1,11 @@
-﻿namespace Assignment1
+﻿/*
+ * Student ID : 1690701287
+ * Name       : Kumphaphan Boonsuk
+ * Section    : 129B
+ * No.        : 10
+ * Course     : GI113 Computer Programming (GI)
+ */
+namespace Assignment1
 {
     internal class Program
     {
